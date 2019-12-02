@@ -19,7 +19,7 @@ namespace Proje2A1
             public int Count { get { return turistler1.Count; } }
 
             
-            public int Enqueue(Turist turist, int priority)
+            public int Enqueue(Turist turist, int priority) 
             {
                 
                 for (int i = 0; i < numaralar.Count; i++) 
