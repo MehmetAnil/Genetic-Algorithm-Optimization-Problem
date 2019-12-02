@@ -44,11 +44,16 @@ namespace Proje2A1
                 turistler1.RemoveAt(0);
                 return turist;
             }
+            public void Format()
+            {
+                turistler1.Clear();
+            }    
 
             public Turist Peek()
             {
                 return turistler1[0];
             }
+        
 
         }
     }
