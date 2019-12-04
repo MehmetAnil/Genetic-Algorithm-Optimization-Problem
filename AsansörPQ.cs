@@ -92,7 +92,7 @@ namespace Proje2A1
                 toplamSüre += süre;
                 öncekiKat = asansörGrubu[i].getKatNo;
             }
-            toplamSüre += katNo.Max() * 4;
+            toplamSüre += katNo.Max() * katÇıkışSüresi;
             return toplamSüre;
         }
 
