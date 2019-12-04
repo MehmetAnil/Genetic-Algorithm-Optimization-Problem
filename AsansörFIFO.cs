@@ -93,7 +93,7 @@ namespace Proje2A1
 
                 
             }
-            toplamSüre += katNo.Max() * 4;
+            toplamSüre += katNo.Max() * katÇıkışSüresi;
             
             return toplamSüre;
         }
